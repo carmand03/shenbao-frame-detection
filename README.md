@@ -32,7 +32,7 @@ The links above follow the supplied notebook layout:
     └── compare_frames.ipynb
 └── output/
     ├── frame_segment_network.html
-    └── tables
+    └── tables/
 ```
 
 Data files and generated outputs must be supplied or produced separately. Their locations are configurable in the notebooks.
