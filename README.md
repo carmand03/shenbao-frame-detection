@@ -2,7 +2,7 @@
 
 This repository documents a notebook-based workflow for studying how returned students are represented in *Shenbao* (申報) within the newspaper's 1872–1949 historical scope. It combines large language model (LLM) frame detection, descriptive and comparative analysis, and an interactive network linking article segments to detected frames.
 
-The workflow applies a predefined codebook to **article titles and individual text segments**. It identifies six frame families and their positive or negative polarity, records supporting evidence, and extracts actors and events associated with the framing. Although the research focus is returned students, the codebook also covers representations of overseas students and study abroad where relevant to the supplied text.
+The workflow applies a predefined codebook to **article titles and individual text segments**. It identifies six frame families and their positive or negative polarity, records supporting evidence, and extracts actors and events associated with the framing. Although the research focus is U.S.-returned students, the codebook also covers representations of overseas students and study abroad where relevant to the supplied text.
 
 The dates in the title describe the research scope; the actual coverage of any analysis depends on the input dataset. These notebooks begin with an already prepared, segmented CSV. They do not perform newspaper digitization, OCR, corpus retrieval, or initial segmentation.
 
