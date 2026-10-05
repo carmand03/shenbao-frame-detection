@@ -12,9 +12,9 @@ The four notebooks serve three stages: detection, analysis through two complemen
 
 | Notebook | Role | Main outputs |
 | --- | --- | --- |
-| [framing_optimized_prompt.ipynb](framing_optimized_prompt.ipynb) | Applies the frame codebook through Ollama; validates model responses, grounds evidence, and supports resumable processing. | JSONL records, consolidated JSON, flattened CSV, and a background-run log when enabled. |
-| [framing_results_analysis.ipynb](output/framing_results_analysis.ipynb) | Analyzes frame distributions, polarity, change over time, and relationships between frames across one or more models. | Notebook tables and charts, summary CSVs, and selected PNG/interactive HTML exports. |
-| [compare_frames.ipynb](framing_comparison/compare_frames.ipynb) | Aligns two models' predictions and examines agreement, partial overlap, quality issues, and segment-level disagreements. | Agreement tables, diagnostic and disagreement CSVs, PNG charts, and a text report with provenance. |
+| [framing_optimized_prompt.ipynb](scripts/framing_optimized_prompt.ipynb) | Applies the frame codebook through Ollama; validates model responses, grounds evidence, and supports resumable processing. | JSONL records, consolidated JSON, flattened CSV, and a background-run log when enabled. |
+| [framing_results_analysis.ipynb](scripts/framing_results_analysis.ipynb) | Analyzes frame distributions, polarity, change over time, and relationships between frames across one or more models. | Notebook tables and charts, summary CSVs, and selected PNG/interactive HTML exports. |
+| [compare_frames.ipynb](scripts/framing_comparison/compare_frames.ipynb) | Aligns two models' predictions and examines agreement, partial overlap, quality issues, and segment-level disagreements. | Agreement tables, diagnostic and disagreement CSVs, PNG charts, and a text report with provenance. |
 | [interactive_frame_network.ipynb](output/interactive_frame_network.ipynb) | Builds an interactive segment ↔ frame-type bipartite network from existing detection CSVs. | `frame_segment_network.html`. |
 
 The links above follow the supplied notebook layout:
@@ -22,12 +22,17 @@ The links above follow the supplied notebook layout:
 ```text
 .
 ├── README.md
-├── framing_optimized_prompt.ipynb
-├── framing_comparison/
-│   └── compare_frames.ipynb
-└── output/
+├── data
+    ├── frames_debate_complete_gemma3_27b.csv
+    └── frames_debate_complete_qwen3.5_35b.csv
+├── scripts
+    ├── framing_optimized_prompt.ipynb
     ├── framing_results_analysis.ipynb
-    └── interactive_frame_network.ipynb
+    ├── interactive_frame_network.ipynb
+    └── compare_frames.ipynb
+└── output/
+    ├── frame_segment_network.html
+    └── tables
 ```
 
 Data files and generated outputs must be supplied or produced separately. Their locations are configurable in the notebooks.
