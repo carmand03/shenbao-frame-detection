@@ -119,7 +119,7 @@ Detection retains original row metadata. For records with document and segment i
 
 ### 1. Detect frames
 
-Open `framing_optimized_prompt.ipynb` and review its configuration before running the detection cells:
+Open `scripts/framing_optimized_prompt.ipynb` and review its configuration before running the detection cells:
 
 - Set `INPUT_DATASET`, `LOCAL_DATA_DIR`, and `LOCAL_OUTPUT_DIR`. The supplied default is `sample_debate`, resolved preferentially to `./data/sample_debate.csv`.
 - Select `OLLAMA_MODEL` and confirm the server endpoint.
@@ -145,7 +145,7 @@ The optional model-comparison cell defaults to Qwen and Llama on up to 50 pendin
 
 ### 2. Analyze distributions and associations
 
-Open `output/framing_results_analysis.ipynb`. Set `DATA_DIR`, or use `MANUAL_FILES` to select the intended model outputs explicitly. Auto-discovery searches `frames_*.csv` in the data directory and CSVs under its `frame_model_comparison/*/` subdirectories.
+Open `scripts/framing_results_analysis.ipynb`. Set `DATA_DIR`, or use `MANUAL_FILES` to select the intended model outputs explicitly. Auto-discovery searches `frames_*.csv` in the data directory and CSVs under its `frame_model_comparison/*/` subdirectories.
 
 The notebook provides:
 
@@ -161,7 +161,7 @@ Use a valid date column for temporal cells and inspect the reported parsing cove
 
 ### 3. Compare two models
 
-Open `framing_comparison/compare_frames.ipynb` and replace the supplied absolute Desktop paths in `CSV_A` and `CSV_B`. Set `OUTPUT_DIR` and model names, then run the notebook.
+Open `scripts/compare_frames.ipynb` and replace the supplied absolute Desktop paths in `CSV_A` and `CSV_B`. Set `OUTPUT_DIR` and model names, then run the notebook.
 
 With `JOIN_KEYS = None`, matching uses `_row_id` if available in both files, otherwise `doc_id` and `segment_index`. Blank or duplicate join identifiers stop execution. Unmatched rows are exported separately.
 
@@ -173,7 +173,7 @@ Key exports include `agreement_summary.csv`, `per_frame_statistics.csv`, `overla
 
 ### 4. Build the interactive network
 
-Open `output/interactive_frame_network.ipynb`, configure `DATA_DIR` or `MANUAL_FILES`, set `OUTPUT_FILE`, and run the notebook. It exports a bipartite graph with:
+Open `scripts/interactive_frame_network.ipynb`, configure `DATA_DIR` or `MANUAL_FILES`, set `OUTPUT_FILE`, and run the notebook. It exports a bipartite graph with:
 
 - **Segment nodes**, identified separately for each model.
 - **Frame-type nodes**, representing frame families with polarity.
@@ -189,7 +189,7 @@ To preview the generated file, serve the directory containing it:
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/frame_segment_network.html` in a browser. The HTML embeds its data and loads the pinned `vis-network@9.1.9` library from `unpkg.com`, so that library requires network access. The exported HTML can also be placed in a GitHub Pages publishing folder. Its embedded metadata and evidence become accessible to anyone who can access the page.
+Open `http://localhost:8000/frame_segment_network.html` in a browser. The HTML embeds its data and loads the pinned `vis-network@9.1.9` library from `unpkg.com`, so that library requires network access. The HTML can also be opened through GitHub Pages (see `https://carmand03.github.io/shenbao-frame-detection/output/frame_segment_network.html`). Its embedded metadata and evidence become accessible to anyone who can access the page.
 
 ## Output fields and evidence checks
 
