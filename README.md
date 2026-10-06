@@ -8,13 +8,14 @@ The dates in the title describe the research scope; the actual coverage of any a
 
 ## Repository contents
 
-The four notebooks serve three stages: detection, analysis through two complementary notebooks, and network visualization.
+The five notebooks serve three stages: detection, analysis through three complementary notebooks, and network visualization. The two comparison notebooks address different questions: `compare_frames.ipynb` compares classification labels and frame sets, while `compare_framing_content.ipynb` compares explanations, evidence, actors, and events.
 
 | Notebook | Role | Main outputs |
 | --- | --- | --- |
 | [framing_optimized_prompt.ipynb](scripts/framing_optimized_prompt.ipynb) | Applies the frame codebook through Ollama; validates model responses, grounds evidence, and supports resumable processing. | JSONL records, consolidated JSON, flattened CSV, and a background-run log when enabled. |
 | [framing_results_analysis.ipynb](scripts/framing_results_analysis.ipynb) | Analyzes frame distributions, polarity, change over time, and relationships between frames across one or more models. | Notebook tables and charts, summary CSVs, and selected PNG/interactive HTML exports. |
 | [compare_frames.ipynb](scripts/compare_frames.ipynb) | Aligns two models' predictions and examines agreement, partial overlap, quality issues, and segment-level disagreements. | Agreement tables, diagnostic and disagreement CSVs, PNG charts, and a text report with provenance. |
+| [compare_framing_content.ipynb](scripts/compare_framing_content.ipynb) | Compares explanations, evidence passages, `framing_actors`, `framed_actors`, and events across two models, with optional semantic similarity. | Field-level and grouped comparison CSVs, quality diagnostics, a manual-review template, PNG charts, and a report with provenance. |
 | [interactive_frame_network.ipynb](scripts/interactive_frame_network.ipynb) | Builds an interactive segment ↔ frame-type bipartite network from existing detection CSVs. | `frame_segment_network.html`. |
 
 The links above follow the supplied notebook layout:
@@ -29,7 +30,8 @@ The links above follow the supplied notebook layout:
     ├── framing_optimized_prompt.ipynb
     ├── framing_results_analysis.ipynb
     ├── interactive_frame_network.ipynb
-    └── compare_frames.ipynb
+    ├── compare_frames.ipynb
+    └── compare_framing_content.ipynb
 └── output/
     ├── frame_segment_network.html
     └── tables/
@@ -45,10 +47,11 @@ flowchart TD
     B --> C[Per-model JSONL, JSON, and CSV outputs]
     C --> D[Distributions, polarity, time, and frame associations]
     C --> E[Agreement and disagreements between two models]
+    C --> G[Explanation, evidence, actor, and event comparisons]
     C --> F[Interactive segment–frame network]
 ```
 
-Detection is the only stage that requires LLM inference. The two analysis notebooks and the network notebook read previously generated CSVs.
+Detection generates new framing predictions through LLM inference. The three analysis/comparison notebooks and the network notebook read previously generated CSVs. The content-comparison notebook can optionally run a local embedding model to measure semantic similarity; it does not rerun the framing detector.
 
 ## Frame codebook
 
@@ -93,6 +96,14 @@ jupyter lab
 ```
 
 This is a starter environment based on the imports, rather than a version-pinned reproduction environment. Record package versions for a reproducible research release.
+
+For optional semantic similarity in `compare_framing_content.ipynb`, also install:
+
+```bash
+python -m pip install sentence-transformers
+```
+
+The content notebook's core comparisons require pandas and NumPy; charts additionally use Matplotlib. Semantic comparison is disabled by default. Its first enabled run may download the configured embedding model; subsequent local execution uses those model files. Set `ALLOW_MODEL_DOWNLOAD = False` to require cached model files.
 
 Detection requires a reachable **Ollama** server with the chosen model available. The notebook checks `OLLAMA_HOST` in the kernel environment, then attempts the institutional `module load ollama` setup, and finally falls back to `http://127.0.0.1:11434`. Set `OLLAMA_HOST` explicitly when using another server.
 
@@ -171,7 +182,72 @@ Processing failures and source-text mismatches are excluded. Type metrics additi
 
 Key exports include `agreement_summary.csv`, `per_frame_statistics.csv`, `overlap_summary.csv`, `agreement_by_group.csv`, `segment_comparisons.csv`, `quality_issues.csv`, `unmatched_segments.csv`, `disagreements_*.csv`, `coverage.json`, and `report.txt`, alongside PNG charts. Disagreement exports preserve both models' predictions, evidence, explanations, and available source metadata. Use a fresh output directory when changing export options.
 
-### 4. Build the interactive network
+### 4. Compare framing content across two models
+
+Open `scripts/compare_framing_content.ipynb`. This complements the label/type agreement notebook by comparing the content supporting each model's predictions. It analyzes **five fields separately**:
+
+| Comparison field | Pipeline CSV column | Main comparisons |
+| --- | --- | --- |
+| Explanation | `frame_explanation` | Normalized exact equality, character-bigram Jaccard, and optional semantic cosine similarity. |
+| Evidence | `frame_evidence` | Normalized quotation-set equality/Jaccard, quotation location diagnostics, and overlap between source-character positions selected by both models. |
+| Framing actors | `framing_actors` | Exact actor-set agreement, actor-set Jaccard, and actors identified only by one model. |
+| Framed actors | `framed_actors` | The same actor-set comparisons, calculated independently from framing actors. |
+| Events | `framed_events` | Exact event-set agreement and Jaccard, lexical overlap, and optional semantic similarity. |
+
+`framing_actors` identifies those voicing, advancing, or reporting the framing; `framed_actors` identifies those represented through it. Their sets are never merged. The comparisons match the same variable across models, rather than comparing framing actors with framed actors within a model.
+
+#### Configure and run
+
+Edit Section 1, run Sections 2–3 to inspect detected columns and raw examples, then verify the parsing settings before choosing **Run All**. Restart the kernel after changing settings to avoid retaining earlier results.
+
+Set `CSV_A`, `CSV_B`, `OUTPUT_DIR`, model names, and any column overrides. The supplied notebook contains absolute Desktop input paths; replace them for your checkout. For a kernel running from the **repository root**, an example is:
+
+```python
+CSV_A = Path('data/frames_debate_complete_gemma3_27b.csv')
+CSV_B = Path('data/frames_debate_complete_qwen3.5_35b.csv')
+OUTPUT_DIR = Path('output/content_comparison')
+
+# The pipeline calls this column framed_events; override the notebook's aliases.
+FIELD_COLUMNS['events'] = {'a': 'framed_events', 'b': 'framed_events'}
+
+# Match the delimiter in the original topic metadata.
+TOPIC_SEPARATOR = ';'
+```
+
+Each actor variable has its own `FIELD_COLUMNS`, `LIST_FORMAT`, `ITEM_SEPARATOR`, and `ITEM_TEXT_KEYS` settings. Supported item formats include delimiter-separated text and JSON strings, lists, or dictionaries. Verify quotation/name/description keys against the actual CSV contents; unsupported dictionaries are flagged rather than interpreted automatically. Set an item separator to `None` to keep a complete text field as one item. The same explicit `ACTOR_ALIASES` mapping normalizes names in both actor variables. When a name key is used, actor roles in the same dictionary are retained in raw outputs but are not scored separately.
+
+Blank fields, JSON null, and empty lists/dictionaries are tracked as missing. If the pipeline's `unspecified` sentinel means no usable extraction in your dataset, set `MISSING_STRINGS = {'unspecified'}`; otherwise it will remain a literal item.
+
+With `JOIN_KEYS = None`, matching uses `_row_id` if present in both files, otherwise `doc_id` and `segment_index`. Blank or duplicate identifiers stop execution. Source-text mismatches and true or unrecognized processing-error flags exclude pairs from scores. Missing columns and invalid formats affect only the relevant field. If source/error columns are unavailable, the omitted checks are recorded in provenance.
+
+#### Read the metrics
+
+Main comparisons require both fields to be populated and successfully parsed. **Shared missing values do not receive similarity 1**: both missing, A-only, and B-only cases are counted separately. Populated explanations on `NOT_FRAMED` segments can still be compared. Each score reports its own eligible denominator.
+
+Evidence-position Jaccard compares the source characters covered by both models' quotations with those covered by either model. Quotations are located after removing whitespace; punctuation, spelling, and character variants must otherwise match. All quotations on both sides must be uniquely located in matching source text for this metric to be eligible. Unlocated quotations and repeated, ambiguous passages are exported as diagnostics. This check is more conservative than the detector's grounding checks, and paraphrased evidence cannot be evaluated by source-position overlap.
+
+Actor and event set comparisons ignore item order and duplicates. Structured event dictionaries can be compared as complete normalized records containing configured actor/action/target/time/location keys; the notebook does not automatically extract structured events from prose or perform fuzzy event matching.
+
+To enable semantic similarity, install `sentence-transformers`, set `ENABLE_SEMANTIC = True`, and rerun. The default multilingual embedding model is `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`; `SEMANTIC_FIELDS` defaults to explanations and events. Long fields are chunked within the model token limit and their embeddings pooled. After model download, comparison runs locally without sending CSV text to an inference API. Dependencies or model-loading failures are recorded explicitly, while core lexical outputs remain available.
+
+Cosine similarity measures semantic proximity, **not an agreement percentage**. It can be high even when explanations disagree about responsibility or polarity. Character-bigram and item-set Jaccard measure lexical overlap, not interpretive correctness. No automatic semantic-agreement threshold is imposed; use the manual-review template to assess whether interpretations are compatible, contradictory, or supported by the source.
+
+`GROUP_BY` defaults to individual `topic_type` values, `gender_mentioned`, and calendar decade. Groups use model A metadata. Multi-topic segments enter each of their deduplicated topics; gender remains the stored category. Decades use model A's integer year with compact/ISO date fallback. These are separate analyses, not topic × gender × decade intersections. Inspect group denominators and missing values before comparing scores.
+
+#### Outputs and reading order
+
+The supplied default output directory is `content_comparison_output`, relative to the kernel working directory; the repository-root example above uses `output/content_comparison`. Start with:
+
+1. `content_coverage.json`, `content_quality_issues.csv`, and `unmatched_segments.csv`: detected columns, eligibility, parsing problems, and semantic execution status.
+2. `content_summary.csv`, `evidence_location_summary.csv`, `content_report.txt`, and `content_similarities.png`: overall scores and denominators.
+3. `content_by_group.csv` and `group_membership.csv`: topic, gender, and decade summaries and their segment memberships.
+4. `manual_review_template.csv`: sampled comparisons with source text and separate annotation columns for framing actors and framed actors. The diagnostic sample mixes random records with low-similarity records; it is not a representative accuracy estimate.
+5. `comparisons_explanation.csv`, `comparisons_evidence.csv`, `comparisons_framing_actors.csv`, `comparisons_framed_actors.csv`, and `comparisons_events.csv`, plus corresponding `lexical_differences_*.csv`: detailed field-level inspection.
+6. `content_comparisons.csv` and `paired_raw_outputs.csv`: the complete audit tables. The former contains five rows per matched segment; the latter preserves both models' original columns.
+
+CSV files use UTF-8 with BOM for Chinese text in Excel. Re-running overwrites generated files, including the manual-review template; save completed annotations under another filename. Use a fresh output directory after changing options or upgrading from the earlier generic actor comparison, so obsolete `comparisons_actors.csv` files are not mistaken for current results.
+
+### 5. Build the interactive network
 
 Open `scripts/interactive_frame_network.ipynb`, configure `DATA_DIR` or `MANUAL_FILES`, set `OUTPUT_FILE`, and run the notebook. It exports a bipartite graph with:
 
@@ -213,7 +289,7 @@ Evidence and actor/event extractions are checked against the supplied source. Ma
 ## Interpreting and reproducing results
 
 - **Segment counts and frame incidences have different denominators.** One segment can contribute several incidences. Frame composition shares describe the distribution of incidences, while segment-level prevalence can sum above 100% across frames.
-- **Model agreement measures consistency, not accuracy.** Human-coded validation is needed to assess whether predictions meet the research codebook. Model-reported confidence is not a calibrated probability of correctness.
+- **Model agreement measures consistency, not accuracy.** Human-coded validation is needed to assess whether predictions meet the research codebook. Model-reported confidence is not a calibrated probability of correctness. Likewise, content similarity does not establish compatible reasoning or source support; inspect both actor variables independently and review evidence and explanations against the segment.
 - **Choose input files deliberately.** Auto-discovery can combine sample runs and full runs containing the same segments. The descriptive analysis does not generally deduplicate overlapping files; `MANUAL_FILES` helps control the analytical population.
 - **Separate pooled and per-model associations.** Overall frame-association calculations group by document–segment identifier and can combine different models' frame assignments into one set. Per-model results are preferable when asking which frames a particular model detected together. Lift in this implementation uses segments present in the exploded, framed table as its population.
 - **Treat association tests as exploratory.** Multiple incidences within a segment and repeated predictions across models are dependent observations. OCR quality, segmentation, sampling, temporal coverage, and model behavior also affect the findings.
