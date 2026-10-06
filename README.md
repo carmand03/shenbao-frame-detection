@@ -189,7 +189,7 @@ To preview the generated file, serve the directory containing it:
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/frame_segment_network.html` in a browser. The HTML embeds its data and loads the pinned `vis-network@9.1.9` library from `unpkg.com`, so that library requires network access. The HTML can also be opened through [GitHub Pages](https://carmand03.github.io/shenbao-frame-detection/output/frame_segment_network.html). Its embedded metadata and evidence become accessible to anyone who can access the page.
+Open `http://localhost:8000/frame_segment_network.html` in a browser. The HTML embeds its data and loads the pinned `vis-network@9.1.9` library from `unpkg.com`, so that library requires network access. The HTML can also be opened through [GitHub Pages](https://carmand03.github.io/shenbao-frame-detection/output/frame_segment_network.html). Since the network is very large, select the Qwen model or use filters to narrow down what is displayed.
 
 ## Output fields and evidence checks
 
