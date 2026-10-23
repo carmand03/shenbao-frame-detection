@@ -16,7 +16,7 @@ The five notebooks serve three stages: detection, analysis through three complem
 | [framing_results_analysis.ipynb](scripts/framing_results_analysis.ipynb) | Analyzes frame distributions, polarity, change over time, and relationships between frames across one or more models. | Notebook tables and charts, summary CSVs, and selected PNG/interactive HTML exports. |
 | [compare_frames.ipynb](scripts/compare_frames.ipynb) | Aligns two models' predictions and examines agreement, partial overlap, quality issues, and segment-level disagreements. | Agreement tables, diagnostic and disagreement CSVs, PNG charts, and a text report with provenance. |
 | [compare_framing_content.ipynb](scripts/compare_framing_content.ipynb) | Compares explanations, evidence passages, `framing_actors`, `framed_actors`, and events across two models, with optional semantic similarity. | Field-level and grouped comparison CSVs, quality diagnostics, a manual-review template, PNG charts, and a report with provenance. |
-| [interactive_frame_network.ipynb](scripts/interactive_frame_network.ipynb) | Builds an interactive segment ↔ frame-type bipartite network from existing detection CSVs. | `frame_segment_network.html`. |
+| [interactive_frame_network.ipynb](scripts/interactive_frame_network.ipynb) | Builds an interactive segment ↔ frame-type bipartite network from existing detection CSVs. | [frame_segment_network.html](https://carmand03.github.io/shenbao-frame-detection/output/frame_segment_network.html). |
 
 The links above follow the supplied notebook layout:
 
