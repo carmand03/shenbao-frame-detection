@@ -1,0 +1,3 @@
+﻿model,input_rows,eligible_predictions,common_eligible_before_text_check,matched_analysis_segments,text_mismatch_segments,document_id_mismatch_segments,n_usable_relevance_to_original_topic,n_usable_gender_mentioned,n_usable_decade
+Gemma 3 27B,4634,4620,4599,4599,0,0,4599,4599,4599
+Qwen 3.5 35B,4634,4613,4599,4599,0,0,4599,4599,4599

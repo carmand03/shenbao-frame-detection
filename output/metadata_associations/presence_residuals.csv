@@ -1,0 +1,433 @@
+﻿variable,group,model,mode,frame,present,expected_present,presence_adjusted_residual
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,without_polarity,modernization,1220,1453.150684931507,-14.109718057105534
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,without_polarity,modernization,1160,926.8493150684932,14.109718057105527
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,without_polarity,patriotism,1103,1081.3150684931506,1.347590191514801
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,without_polarity,patriotism,668,689.6849315068494,-1.347590191514801
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,without_polarity,victimhood,1181,1052.0078277886498,8.058886632170708
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,without_polarity,victimhood,542,670.9921722113503,-8.058886632170717
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,without_polarity,moral,1609,1501.3855185909981,6.524291186248296
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,without_polarity,moral,850,957.614481409002,-6.524291186248303
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,without_polarity,economic,1807,1961.142857142857,-10.156549173901402
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,without_polarity,economic,1405,1250.857142857143,10.156549173901404
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,without_polarity,diplomacy,943,1092.9158512720157,-9.298094157887203
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,without_polarity,diplomacy,847,697.0841487279844,9.298094157887196
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,modernization (positive),496,682.614481409002,-13.155919231776306
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,modernization (positive),622,435.38551859099806,13.155919231776302
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,modernization (negative),726,774.1996086105676,-3.2617099487558274
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,modernization (negative),542,493.8003913894325,3.261709948755824
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,patriotism (positive),864,884.1017612524462,-1.3088033495047513
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,patriotism (positive),584,563.8982387475538,1.3088033495047513
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,patriotism (negative),239,197.2133072407045,4.9450041476324404
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,patriotism (negative),84,125.7866927592955,-4.9450041476324404
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,victimhood (positive),1163,1039.1859099804306,7.754696662595033
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,victimhood (positive),539,662.8140900195694,-7.754696662595034
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,victimhood (negative),22,15.264187866927593,2.770260764422056
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,victimhood (negative),3,9.735812133072407,-2.770260764422056
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,moral (positive),311,357.7925636007828,-4.243676025032294
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,moral (positive),275,228.20743639921722,4.243676025032294
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,moral (negative),1298,1143.5929549902153,9.503510676229261
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,moral (negative),575,729.4070450097847,-9.503510676229263
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,economic (positive),144,217.3620352250489,-8.301539256704764
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,economic (positive),212,138.6379647749511,8.301539256704764
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,economic (negative),1679,1766.371819960861,-5.469610765109257
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,economic (negative),1214,1126.628180039139,5.469610765109258
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,diplomacy (positive),285,400.53228962818,-9.990491204460238
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,diplomacy (positive),371,255.46771037181995,9.990491204460241
+relevance_to_original_topic,RELEVANT_NON_US,Gemma 3 27B,with_polarity,diplomacy (negative),662,694.8258317025441,-2.3003428933456878
+relevance_to_original_topic,RELEVANT_US,Gemma 3 27B,with_polarity,diplomacy (negative),476,443.174168297456,2.300342893345684
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,without_polarity,modernization,363,473.1898238747554,-8.901853968083772
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,without_polarity,modernization,412,301.8101761252446,8.901853968083774
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,without_polarity,patriotism,412,441.440313111546,-2.4458519291296117
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,without_polarity,patriotism,311,281.559686888454,2.4458519291296117
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,without_polarity,victimhood,220,193.5499021526419,3.1573526384339243
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,without_polarity,victimhood,97,123.45009784735812,-3.157352638433926
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,without_polarity,moral,509,446.9354207436399,5.130385018916046
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,without_polarity,moral,223,285.0645792563601,-5.130385018916046
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,without_polarity,economic,244,244.22700587084148,-0.024360316459250787
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,without_polarity,economic,156,155.77299412915852,0.024360316459250787
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,without_polarity,diplomacy,111,177.06457925636008,-8.219212278606593
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,without_polarity,diplomacy,179,112.93542074363992,8.219212278606594
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,modernization (positive),157,219.80430528375734,-7.0705830374136704
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,modernization (positive),203,140.19569471624266,7.0705830374136704
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,modernization (negative),211,260.1017612524462,-5.1217319798104235
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,modernization (negative),215,165.89823874755382,5.1217319798104235
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,patriotism (positive),351,384.04696673189824,-2.908437910224609
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,patriotism (positive),278,244.95303326810176,2.908437910224609
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,patriotism (negative),63,58.614481409001954,0.9276478366563479
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,patriotism (negative),33,37.385518590998046,-0.9276478366563479
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,victimhood (positive),210,186.83365949119374,2.8110271986389135
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,victimhood (positive),96,119.16634050880626,-2.8110271986389135
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,victimhood (negative),10,6.716242661448141,2.0328801670459344
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,victimhood (negative),1,4.283757338551859,-2.0328801670459344
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,moral (positive),46,47.013698630136986,-0.23891696419059524
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,moral (positive),31,29.986301369863014,0.2389169641905953
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,moral (negative),467,403.58512720156557,5.466398766534205
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,moral (negative),194,257.41487279843443,-5.466398766534206
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,economic (positive),7,13.432485322896282,-2.8191992878743752
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,economic (positive),15,8.567514677103718,2.8191992878743757
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,economic (negative),238,232.62622309197653,0.5895391174246277
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,economic (negative),143,148.37377690802347,-0.5895391174246278
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,diplomacy (positive),35,87.92172211350294,-9.189198594741404
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,diplomacy (positive),109,56.07827788649706,9.189198594741406
+relevance_to_original_topic,RELEVANT_NON_US,Qwen 3.5 35B,with_polarity,diplomacy (negative),77,90.36399217221135,-2.2899464547191757
+relevance_to_original_topic,RELEVANT_US,Qwen 3.5 35B,with_polarity,diplomacy (negative),71,57.63600782778865,2.289946454719175
+gender_mentioned,No,Gemma 3 27B,without_polarity,modernization,1804,1917.869101978691,-8.494844695356578
+gender_mentioned,Yes,Gemma 3 27B,without_polarity,modernization,576,462.130898021309,8.49484469535657
+gender_mentioned,No,Gemma 3 27B,without_polarity,patriotism,1430,1427.1202435312025,0.22060911722003904
+gender_mentioned,Yes,Gemma 3 27B,without_polarity,patriotism,341,343.87975646879755,-0.22060911722004342
+gender_mentioned,No,Gemma 3 27B,without_polarity,victimhood,1334,1388.4405305501195,-4.192778761795115
+gender_mentioned,Yes,Gemma 3 27B,without_polarity,victimhood,389,334.5594694498804,4.19277876179512
+gender_mentioned,No,Gemma 3 27B,without_polarity,moral,1881,1981.5294629267232,-7.513181643478539
+gender_mentioned,Yes,Gemma 3 27B,without_polarity,moral,578,477.4705370732768,7.513181643478539
+gender_mentioned,No,Gemma 3 27B,without_polarity,economic,2485,2588.3174603174602,-8.391979236917761
+gender_mentioned,Yes,Gemma 3 27B,without_polarity,economic,727,623.6825396825396,8.39197923691777
+gender_mentioned,No,Gemma 3 27B,without_polarity,diplomacy,1455,1442.4309632528812,0.9609842907198252
+gender_mentioned,Yes,Gemma 3 27B,without_polarity,diplomacy,335,347.56903674711896,-0.9609842907198339
+gender_mentioned,No,Gemma 3 27B,with_polarity,modernization (positive),829,900.9149815177212,-6.249757079668009
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,modernization (positive),289,217.08501848227877,6.24975707966801
+gender_mentioned,No,Gemma 3 27B,with_polarity,modernization (negative),979,1021.7890845836051,-3.5694617275304616
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,modernization (negative),289,246.21091541639487,3.5694617275304616
+gender_mentioned,No,Gemma 3 27B,with_polarity,patriotism (positive),1156,1166.8380082626659,-0.8698766487952407
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,patriotism (positive),292,281.1619917373342,0.8698766487952364
+gender_mentioned,No,Gemma 3 27B,with_polarity,patriotism (negative),274,260.2822352685366,2.001151266792158
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,patriotism (negative),49,62.71776473146336,-2.001151266792156
+gender_mentioned,No,Gemma 3 27B,with_polarity,victimhood (positive),1320,1371.5181561208958,-3.9776169972763133
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,victimhood (positive),382,330.48184387910413,3.977616997276318
+gender_mentioned,No,Gemma 3 27B,with_polarity,victimhood (negative),16,20.145683844313982,-2.1018163789451343
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,victimhood (negative),9,4.854316155686019,2.101816378945134
+gender_mentioned,No,Gemma 3 27B,with_polarity,moral (positive),420,472.2148293107197,-5.837503476161928
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,moral (positive),166,113.78517068928028,5.837503476161928
+gender_mentioned,No,Gemma 3 27B,with_polarity,moral (negative),1461,1509.3146336160034,-3.665755995013578
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,moral (negative),412,363.6853663839965,3.665755995013583
+gender_mentioned,No,Gemma 3 27B,with_polarity,economic (positive),260,286.8745379430311,-3.7488336423807196
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,economic (positive),96,69.1254620569689,3.74883364238072
+gender_mentioned,No,Gemma 3 27B,with_polarity,economic (negative),2258,2331.258534464014,-5.653418992179837
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,economic (negative),635,561.7414655359861,5.653418992179846
+gender_mentioned,No,Gemma 3 27B,with_polarity,diplomacy (positive),533,528.6227440747989,0.46660921189095994
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,diplomacy (positive),123,127.37725592520113,-0.46660921189096294
+gender_mentioned,No,Gemma 3 27B,with_polarity,diplomacy (negative),926,917.0315285931724,0.774752835920638
+gender_mentioned,Yes,Gemma 3 27B,with_polarity,diplomacy (negative),212,220.96847140682758,-0.774752835920638
+gender_mentioned,No,Qwen 3.5 35B,without_polarity,modernization,602,624.5161991737334,-2.2423425913850514
+gender_mentioned,Yes,Qwen 3.5 35B,without_polarity,modernization,173,150.4838008262666,2.2423425913850514
+gender_mentioned,No,Qwen 3.5 35B,without_polarity,patriotism,553,582.6131767775603,-3.0327781588339184
+gender_mentioned,Yes,Qwen 3.5 35B,without_polarity,patriotism,170,140.38682322243966,3.032778158833924
+gender_mentioned,No,Qwen 3.5 35B,without_polarity,victimhood,249,255.44727114590128,-0.9487234821798862
+gender_mentioned,Yes,Qwen 3.5 35B,without_polarity,victimhood,68,61.55272885409872,0.9487234821798863
+gender_mentioned,No,Qwen 3.5 35B,without_polarity,moral,588,589.8656229615134,-0.19010692149487188
+gender_mentioned,Yes,Qwen 3.5 35B,without_polarity,moral,144,142.13437703848663,0.19010692149486902
+gender_mentioned,No,Qwen 3.5 35B,without_polarity,economic,331,322.3309415090237,1.1467947012593362
+gender_mentioned,Yes,Qwen 3.5 35B,without_polarity,economic,69,77.6690584909763,-1.1467947012593382
+gender_mentioned,No,Qwen 3.5 35B,without_polarity,diplomacy,233,233.68993259404218,-0.10581228523077196
+gender_mentioned,Yes,Qwen 3.5 35B,without_polarity,diplomacy,57,56.31006740595782,0.10581228523077305
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,modernization (positive),277,290.0978473581213,-1.8177478666834817
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,modernization (positive),83,69.90215264187867,1.8177478666834817
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,modernization (negative),333,343.2824527071102,-1.322161193808968
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,modernization (negative),93,82.71754729288976,1.3221611938089697
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,patriotism (positive),475,506.8654055229398,-3.457128728233229
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,patriotism (positive),154,122.13459447706023,3.4571287282332257
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,patriotism (negative),80,77.35942596216569,0.688538828689646
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,patriotism (negative),16,18.640574037834313,-0.688538828689646
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,victimhood (positive),240,246.58317025440314,-0.9847151211476655
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,victimhood (positive),66,59.41682974559687,0.9847151211476634
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,victimhood (negative),9,8.864100891498152,0.10371109938390351
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,victimhood (negative),2,2.135899108501848,-0.10371109938390384
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,moral (positive),48,62.048706240487064,-4.08171208517315
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,moral (positive),29,14.951293759512938,4.08171208517315
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,moral (negative),544,532.6518808436616,1.2058741323884001
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,moral (negative),117,128.34811915633833,-1.2058741323883941
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,economic (positive),18,17.728201782996305,0.14684578466325032
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,economic (positive),4,4.271798217003696,-0.1468457846632508
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,economic (negative),314,307.02022178734506,0.9439359459026121
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,economic (negative),67,73.97977821265492,-0.9439359459026101
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,diplomacy (positive),108,116.03913894324853,-1.7207632089698206
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,diplomacy (positive),36,27.96086105675147,1.7207632089698206
+gender_mentioned,No,Qwen 3.5 35B,with_polarity,diplomacy (negative),127,119.26244835833877,1.634408390591763
+gender_mentioned,Yes,Qwen 3.5 35B,with_polarity,diplomacy (negative),21,28.73755164166123,-1.634408390591764
+decade,1870-1879,Gemma 3 27B,without_polarity,modernization,4,3.6225266362252664,0.2857355891253753
+decade,1880-1889,Gemma 3 27B,without_polarity,modernization,6,3.6225266362252664,1.7996733476364362
+decade,1890-1899,Gemma 3 27B,without_polarity,modernization,10,6.7275494672754945,1.8189148712863819
+decade,1900-1909,Gemma 3 27B,without_polarity,modernization,313,315.1598173515982,-0.18803985882254823
+decade,1910-1919,Gemma 3 27B,without_polarity,modernization,513,591.5068493150685,-5.360749959191793
+decade,1920-1929,Gemma 3 27B,without_polarity,modernization,849,859.5738203957382,-0.6496047652753388
+decade,1930-1939,Gemma 3 27B,without_polarity,modernization,474,410.38051750380515,4.969894058871662
+decade,1940-1949,Gemma 3 27B,without_polarity,modernization,211,189.40639269406392,2.3544447680229954
+decade,1870-1879,Gemma 3 27B,without_polarity,patriotism,1,2.69558599695586,-1.3180017678414166
+decade,1880-1889,Gemma 3 27B,without_polarity,patriotism,2,2.69558599695586,-0.5406883374358414
+decade,1890-1899,Gemma 3 27B,without_polarity,patriotism,9,5.006088280060883,2.2795855270278644
+decade,1900-1909,Gemma 3 27B,without_polarity,patriotism,242,234.5159817351598,0.6690920593249082
+decade,1910-1919,Gemma 3 27B,without_polarity,patriotism,500,440.1506849315069,4.196578329717689
+decade,1920-1929,Gemma 3 27B,without_polarity,patriotism,599,639.6240487062405,-2.562823062402444
+decade,1930-1939,Gemma 3 27B,without_polarity,patriotism,307,305.37138508371385,0.1306452287689327
+decade,1940-1949,Gemma 3 27B,without_polarity,patriotism,111,140.9406392694064,-3.3522972677910334
+decade,1870-1879,Gemma 3 27B,without_polarity,victimhood,1,2.6225266362252664,-1.2679435249488356
+decade,1880-1889,Gemma 3 27B,without_polarity,victimhood,1,2.6225266362252664,-1.2679435249488356
+decade,1890-1899,Gemma 3 27B,without_polarity,victimhood,5,4.870406610132638,0.07436219207885794
+decade,1900-1909,Gemma 3 27B,without_polarity,victimhood,218,228.15981735159818,-0.9131641246736953
+decade,1910-1919,Gemma 3 27B,without_polarity,victimhood,409,428.22113502935423,-1.3549618963502716
+decade,1920-1929,Gemma 3 27B,without_polarity,victimhood,633,622.2881061100239,0.6793812938834204
+decade,1930-1939,Gemma 3 27B,without_polarity,victimhood,326,297.0948032180909,2.331111138254755
+decade,1940-1949,Gemma 3 27B,without_polarity,victimhood,130,137.12067840834965,-0.8015206762041182
+decade,1870-1879,Gemma 3 27B,without_polarity,moral,2,3.7427701674277016,-1.321597233082153
+decade,1880-1889,Gemma 3 27B,without_polarity,moral,4,3.7427701674277016,0.19506544313614313
+decade,1890-1899,Gemma 3 27B,without_polarity,moral,5,6.950858882365732,-1.0862908397017172
+decade,1900-1909,Gemma 3 27B,without_polarity,moral,345,325.62100456621005,1.6902273682544637
+decade,1910-1919,Gemma 3 27B,without_polarity,moral,639,611.1409001956947,1.905750579109098
+decade,1920-1929,Gemma 3 27B,without_polarity,moral,847,888.1058925853447,-2.5298940544518826
+decade,1930-1939,Gemma 3 27B,without_polarity,moral,429,424.00239182430965,0.3911111354749015
+decade,1940-1949,Gemma 3 27B,without_polarity,moral,188,195.69341161121983,-0.8403559027911442
+decade,1870-1879,Gemma 3 27B,without_polarity,economic,5,4.888888888888889,0.09157494075766283
+decade,1880-1889,Gemma 3 27B,without_polarity,economic,7,4.888888888888889,1.7399238743955996
+decade,1890-1899,Gemma 3 27B,without_polarity,economic,12,9.079365079365079,1.7674929399267931
+decade,1900-1909,Gemma 3 27B,without_polarity,economic,402,425.3333333333333,-2.2118252247150676
+decade,1910-1919,Gemma 3 27B,without_polarity,economic,761,798.2857142857143,-2.7720534549303886
+decade,1920-1929,Gemma 3 27B,without_polarity,economic,1200,1160.063492063492,2.6713358399228175
+decade,1930-1939,Gemma 3 27B,without_polarity,economic,564,553.8412698412699,0.8640473735667509
+decade,1940-1949,Gemma 3 27B,without_polarity,economic,261,255.61904761904762,0.6387980582350506
+decade,1870-1879,Gemma 3 27B,without_polarity,diplomacy,5,2.7245053272450535,1.76530029046263
+decade,1880-1889,Gemma 3 27B,without_polarity,diplomacy,6,2.7245053272450535,2.5410877759702877
+decade,1890-1899,Gemma 3 27B,without_polarity,diplomacy,9,5.0597956077408135,2.2445163778015433
+decade,1900-1909,Gemma 3 27B,without_polarity,diplomacy,260,237.03196347031962,2.049375336515537
+decade,1910-1919,Gemma 3 27B,without_polarity,diplomacy,446,444.87279843444225,0.07888316557005359
+decade,1920-1929,Gemma 3 27B,without_polarity,diplomacy,732,646.4861926505762,5.38416375790571
+decade,1930-1939,Gemma 3 27B,without_polarity,diplomacy,237,308.6475320721896,-5.736182750530395
+decade,1940-1949,Gemma 3 27B,without_polarity,diplomacy,95,142.45270711024136,-5.302602175918445
+decade,1870-1879,Gemma 3 27B,with_polarity,modernization (positive),3,1.7016742770167428,1.1448692816903348
+decade,1880-1889,Gemma 3 27B,with_polarity,modernization (positive),3,1.7016742770167428,1.1448692816903348
+decade,1890-1899,Gemma 3 27B,with_polarity,modernization (positive),5,3.1602522287453794,1.1912194752117253
+decade,1900-1909,Gemma 3 27B,with_polarity,modernization (positive),112,148.0456621004566,-3.6557805170348985
+decade,1910-1919,Gemma 3 27B,with_polarity,modernization (positive),226,277.8590998043053,-4.125125755310684
+decade,1920-1929,Gemma 3 27B,with_polarity,modernization (positive),470,403.7829963035442,4.7389378615503
+decade,1930-1939,Gemma 3 27B,with_polarity,modernization (positive),170,192.77538595346815,-2.072607000012839
+decade,1940-1949,Gemma 3 27B,with_polarity,modernization (positive),129,88.97325505544684,5.084026409195749
+decade,1870-1879,Gemma 3 27B,with_polarity,modernization (negative),1,1.9299847792998477,-0.7871800015310622
+decade,1880-1889,Gemma 3 27B,with_polarity,modernization (negative),3,1.9299847792998477,0.9057079232018607
+decade,1890-1899,Gemma 3 27B,with_polarity,modernization (negative),6,3.584257447271146,1.50144738975401
+decade,1900-1909,Gemma 3 27B,with_polarity,modernization (negative),202,167.90867579908675,3.318921250482741
+decade,1910-1919,Gemma 3 27B,with_polarity,modernization (negative),288,315.1389432485323,-2.072197388243822
+decade,1920-1929,Gemma 3 27B,with_polarity,modernization (negative),380,457.957816916721,-5.355464294776429
+decade,1930-1939,Gemma 3 27B,with_polarity,modernization (negative),305,218.6397042835399,7.543819810000941
+decade,1940-1949,Gemma 3 27B,with_polarity,modernization (negative),83,100.91063274624918,-2.183707286161222
+decade,1870-1879,Gemma 3 27B,with_polarity,patriotism (positive),1,2.2039573820395737,-0.9805004246152642
+decade,1880-1889,Gemma 3 27B,with_polarity,patriotism (positive),2,2.2039573820395737,-0.16610247395505098
+decade,1890-1899,Gemma 3 27B,with_polarity,patriotism (positive),8,4.093063709502066,2.3363303991503725
+decade,1900-1909,Gemma 3 27B,with_polarity,patriotism (positive),149,191.74429223744292,-4.003775042635835
+decade,1910-1919,Gemma 3 27B,with_polarity,patriotism (positive),394,359.8747553816047,2.506988968489566
+decade,1920-1929,Gemma 3 27B,with_polarity,patriotism (positive),547,522.9676016525332,1.5884481160085162
+decade,1930-1939,Gemma 3 27B,with_polarity,patriotism (positive),249,249.67688627962602,-0.05688940051535292
+decade,1940-1949,Gemma 3 27B,with_polarity,patriotism (positive),98,115.235485975212,-2.021833966173393
+decade,1870-1879,Gemma 3 27B,with_polarity,patriotism (negative),0,0.4916286149162861,-0.7277164596437619
+decade,1880-1889,Gemma 3 27B,with_polarity,patriotism (negative),0,0.4916286149162861,-0.7277164596437619
+decade,1890-1899,Gemma 3 27B,with_polarity,patriotism (negative),1,0.9130245705588171,0.09453287917234837
+decade,1900-1909,Gemma 3 27B,with_polarity,patriotism (negative),93,42.77168949771689,8.551227901034228
+decade,1910-1919,Gemma 3 27B,with_polarity,patriotism (negative),106,80.27592954990216,3.434825774529505
+decade,1920-1929,Gemma 3 27B,with_polarity,patriotism (negative),52,116.65644705370732,-7.767408195076243
+decade,1930-1939,Gemma 3 27B,with_polarity,patriotism (negative),58,55.69449880408784,0.35218379677302636
+decade,1940-1949,Gemma 3 27B,with_polarity,patriotism (negative),13,25.70515329419439,-2.708882935586909
+decade,1870-1879,Gemma 3 27B,with_polarity,victimhood (positive),1,2.590563165905632,-1.2460688806346087
+decade,1880-1889,Gemma 3 27B,with_polarity,victimhood (positive),1,2.590563165905632,-1.2460688806346087
+decade,1890-1899,Gemma 3 27B,with_polarity,victimhood (positive),5,4.81104587953903,0.10869479665546694
+decade,1900-1909,Gemma 3 27B,with_polarity,victimhood (positive),212,225.37899543378995,-1.205506344101693
+decade,1910-1919,Gemma 3 27B,with_polarity,victimhood (positive),405,423.00195694716245,-1.2721866254445016
+decade,1920-1929,Gemma 3 27B,with_polarity,victimhood (positive),630,614.7036312241792,0.9725651922548684
+decade,1930-1939,Gemma 3 27B,with_polarity,victimhood (positive),320,293.4737986518808,2.144594387476297
+decade,1940-1949,Gemma 3 27B,with_polarity,victimhood (positive),128,135.4494455316373,-0.8406212436146565
+decade,1870-1879,Gemma 3 27B,with_polarity,victimhood (negative),0,0.0380517503805175,-0.1957499723115323
+decade,1880-1889,Gemma 3 27B,with_polarity,victimhood (negative),0,0.0380517503805175,-0.1957499723115323
+decade,1890-1899,Gemma 3 27B,with_polarity,victimhood (negative),0,0.07066753642096107,-0.266936695535671
+decade,1900-1909,Gemma 3 27B,with_polarity,victimhood (negative),8,3.310502283105023,2.7746503600992978
+decade,1910-1919,Gemma 3 27B,with_polarity,victimhood (negative),4,6.213307240704501,-1.0270905953483318
+decade,1920-1929,Gemma 3 27B,with_polarity,victimhood (negative),5,9.029136768862797,-1.682202707678272
+decade,1930-1939,Gemma 3 27B,with_polarity,victimhood (negative),6,4.310719721678626,0.8968251031048902
+decade,1940-1949,Gemma 3 27B,with_polarity,victimhood (negative),2,1.989562948467058,0.007733750921169491
+decade,1870-1879,Gemma 3 27B,with_polarity,moral (positive),0,0.8919330289193302,-1.0117984580961532
+decade,1880-1889,Gemma 3 27B,with_polarity,moral (positive),1,0.8919330289193302,0.122589915571377
+decade,1890-1899,Gemma 3 27B,with_polarity,moral (positive),0,1.6564470537073277,-1.3797505755067865
+decade,1900-1909,Gemma 3 27B,with_polarity,moral (positive),56,77.59817351598174,-2.817952434770766
+decade,1910-1919,Gemma 3 27B,with_polarity,moral (positive),116,145.6399217221135,-3.033044601479067
+decade,1920-1929,Gemma 3 27B,with_polarity,moral (positive),235,211.64296586214394,2.1503973195075696
+decade,1930-1939,Gemma 3 27B,with_polarity,moral (positive),101,101.04327027614698,-0.005065594337191709
+decade,1940-1949,Gemma 3 27B,with_polarity,moral (positive),77,46.63535551206784,4.961525757099458
+decade,1870-1879,Gemma 3 27B,with_polarity,moral (negative),2,2.8508371385083713,-0.6550278698274048
+decade,1880-1889,Gemma 3 27B,with_polarity,moral (negative),3,2.8508371385083713,0.11483493961196015
+decade,1890-1899,Gemma 3 27B,with_polarity,moral (negative),5,5.294411828658404,-0.1664293255996634
+decade,1900-1909,Gemma 3 27B,with_polarity,moral (negative),289,248.02283105022832,3.6283582087774895
+decade,1910-1919,Gemma 3 27B,with_polarity,moral (negative),523,465.5009784735812,3.9931329680989007
+decade,1920-1929,Gemma 3 27B,with_polarity,moral (negative),612,676.4629267232007,-4.0277509363089905
+decade,1930-1939,Gemma 3 27B,with_polarity,moral (negative),328,322.95912154816267,0.40049632926724077
+decade,1940-1949,Gemma 3 27B,with_polarity,moral (negative),111,149.058056099152,-4.220318473780208
+decade,1870-1879,Gemma 3 27B,with_polarity,economic (positive),2,0.5418569254185692,2.063876848142567
+decade,1880-1889,Gemma 3 27B,with_polarity,economic (positive),2,0.5418569254185692,2.063876848142567
+decade,1890-1899,Gemma 3 27B,with_polarity,economic (positive),1,1.0063057186344857,-0.006553593297562986
+decade,1900-1909,Gemma 3 27B,with_polarity,economic (positive),21,47.141552511415526,-4.2556889873633965
+decade,1910-1919,Gemma 3 27B,with_polarity,economic (positive),89,88.4774951076321,0.06671353885126562
+decade,1920-1929,Gemma 3 27B,with_polarity,economic (positive),149,128.5749075886062,2.3463182448459747
+decade,1930-1939,Gemma 3 27B,with_polarity,economic (positive),52,61.38464883670363,-1.370820657222088
+decade,1940-1949,Gemma 3 27B,with_polarity,economic (positive),40,28.331376386170906,2.378967745935901
+decade,1870-1879,Gemma 3 27B,with_polarity,economic (negative),3,4.403348554033485,-1.0988716672835765
+decade,1880-1889,Gemma 3 27B,with_polarity,economic (negative),6,4.403348554033485,1.2502346843605994
+decade,1890-1899,Gemma 3 27B,with_polarity,economic (negative),11,8.177647314633615,1.622758772842314
+decade,1900-1909,Gemma 3 27B,with_polarity,economic (negative),387,383.0913242009132,0.3520188661949222
+decade,1910-1919,Gemma 3 27B,with_polarity,economic (negative),682,719.0039138943249,-2.6137801998430157
+decade,1920-1929,Gemma 3 27B,with_polarity,economic (negative),1066,1044.851706892803,1.3439898630601332
+decade,1930-1939,Gemma 3 27B,with_polarity,economic (negative),515,498.83648619265057,1.3061593903433988
+decade,1940-1949,Gemma 3 27B,with_polarity,economic (negative),223,230.23222439660796,-0.8157152842493469
+decade,1870-1879,Gemma 3 27B,with_polarity,diplomacy (positive),4,0.9984779299847792,3.246544704883019
+decade,1880-1889,Gemma 3 27B,with_polarity,diplomacy (positive),1,0.9984779299847792,0.0016463208442612258
+decade,1890-1899,Gemma 3 27B,with_polarity,diplomacy (positive),3,1.8543161556860186,0.9099256210957911
+decade,1900-1909,Gemma 3 27B,with_polarity,diplomacy (positive),63,86.8675799086758,-2.96922492278936
+decade,1910-1919,Gemma 3 27B,with_polarity,diplomacy (positive),142,163.0371819960861,-2.052614479424559
+decade,1920-1929,Gemma 3 27B,with_polarity,diplomacy (positive),299,236.92454881495976,5.449278183334857
+decade,1930-1939,Gemma 3 27B,with_polarity,diplomacy (positive),83,113.11328549684714,-3.3613749721237727
+decade,1940-1949,Gemma 3 27B,with_polarity,diplomacy (positive),61,52.2061317677756,1.370077338569283
+decade,1870-1879,Gemma 3 27B,with_polarity,diplomacy (negative),1,1.7321156773211568,-0.6417308693799311
+decade,1880-1889,Gemma 3 27B,with_polarity,diplomacy (negative),5,1.7321156773211568,2.8644411155066773
+decade,1890-1899,Gemma 3 27B,with_polarity,diplomacy (negative),6,3.2167862578821484,1.7913524515334616
+decade,1900-1909,Gemma 3 27B,with_polarity,diplomacy (negative),197,150.69406392694063,4.668364495046472
+decade,1910-1919,Gemma 3 27B,with_polarity,diplomacy (negative),306,282.82974559686886,1.8320781864307787
+decade,1920-1929,Gemma 3 27B,with_polarity,diplomacy (negative),435,411.0063057186345,1.7069059515219767
+decade,1930-1939,Gemma 3 27B,with_polarity,diplomacy (negative),154,196.22396173081106,-3.8195410095328612
+decade,1940-1949,Gemma 3 27B,with_polarity,diplomacy (negative),34,90.56490541422048,-7.141765269399222
+decade,1870-1879,Qwen 3.5 35B,without_polarity,modernization,3,1.1796042617960427,1.8395058431506472
+decade,1880-1889,Qwen 3.5 35B,without_polarity,modernization,3,1.1796042617960427,1.8395058431506472
+decade,1890-1899,Qwen 3.5 35B,without_polarity,modernization,5,2.1906936290497936,2.0844703598002012
+decade,1900-1909,Qwen 3.5 35B,without_polarity,modernization,154,102.62557077625571,5.970864793850815
+decade,1910-1919,Qwen 3.5 35B,without_polarity,modernization,166,192.61252446183954,-2.4258358662052437
+decade,1920-1929,Qwen 3.5 35B,without_polarity,modernization,259,279.90323983474667,-1.71430547773952
+decade,1930-1939,Qwen 3.5 35B,without_polarity,modernization,132,133.6323113720374,-0.17022264792350925
+decade,1940-1949,Qwen 3.5 35B,without_polarity,modernization,53,61.6764514024788,-1.2628820283005022
+decade,1870-1879,Qwen 3.5 35B,without_polarity,patriotism,0,1.1004566210045663,-1.1435549801056146
+decade,1880-1889,Qwen 3.5 35B,without_polarity,patriotism,0,1.1004566210045663,-1.1435549801056146
+decade,1890-1899,Qwen 3.5 35B,without_polarity,patriotism,2,2.0437051532941943,-0.033348632358721694
+decade,1900-1909,Qwen 3.5 35B,without_polarity,patriotism,124,95.73972602739725,3.377655523941939
+decade,1910-1919,Qwen 3.5 35B,without_polarity,patriotism,224,179.68884540117418,4.153719504724725
+decade,1920-1929,Qwen 3.5 35B,without_polarity,patriotism,238,261.12263535551205,-1.9501171424545172
+decade,1930-1939,Qwen 3.5 35B,without_polarity,patriotism,115,124.66601435094586,-1.0365983935936505
+decade,1940-1949,Qwen 3.5 35B,without_polarity,patriotism,20,57.53816046966732,-5.61878469931824
+decade,1870-1879,Qwen 3.5 35B,without_polarity,victimhood,0,0.4824961948249619,-0.7204205369819601
+decade,1880-1889,Qwen 3.5 35B,without_polarity,victimhood,1,0.4824961948249619,0.7726907967629856
+decade,1890-1899,Qwen 3.5 35B,without_polarity,victimhood,0,0.8960643618177865,-0.9824097304695694
+decade,1900-1909,Qwen 3.5 35B,without_polarity,victimhood,53,41.97716894977169,1.892954645424348
+decade,1910-1919,Qwen 3.5 35B,without_polarity,victimhood,75,78.78473581213308,-0.5097623301218758
+decade,1920-1929,Qwen 3.5 35B,without_polarity,victimhood,118,114.48945422918025,0.42540841810750035
+decade,1930-1939,Qwen 3.5 35B,without_polarity,victimhood,53,54.65992607088498,-0.25577607119647233
+decade,1940-1949,Qwen 3.5 35B,without_polarity,victimhood,17,25.227658186562294,-1.7695128293590774
+decade,1870-1879,Qwen 3.5 35B,without_polarity,moral,0,1.1141552511415524,-1.1519887544626999
+decade,1880-1889,Qwen 3.5 35B,without_polarity,moral,0,1.1141552511415524,-1.1519887544626999
+decade,1890-1899,Qwen 3.5 35B,without_polarity,moral,1,2.0691454664057405,-0.811709418350093
+decade,1900-1909,Qwen 3.5 35B,without_polarity,moral,168,96.93150684931507,8.4515137219386
+decade,1910-1919,Qwen 3.5 35B,without_polarity,moral,232,181.9256360078278,4.67044161772197
+decade,1920-1929,Qwen 3.5 35B,without_polarity,moral,184,264.3731245923027,-6.744544557607156
+decade,1930-1939,Qwen 3.5 35B,without_polarity,moral,105,126.21787345075016,-2.2640361500706283
+decade,1940-1949,Qwen 3.5 35B,without_polarity,moral,42,58.25440313111546,-2.420799592093967
+decade,1870-1879,Qwen 3.5 35B,without_polarity,economic,3,0.60882800608828,3.209615710619531
+decade,1880-1889,Qwen 3.5 35B,without_polarity,economic,1,0.60882800608828,0.52506125883464
+decade,1890-1899,Qwen 3.5 35B,without_polarity,economic,0,1.1306805827353772,-1.1144059292035295
+decade,1900-1909,Qwen 3.5 35B,without_polarity,economic,38,52.96803652968037,-2.3107976734396574
+decade,1910-1919,Qwen 3.5 35B,without_polarity,economic,73,99.41291585127202,-3.1981479219483786
+decade,1920-1929,Qwen 3.5 35B,without_polarity,economic,153,144.46618830180475,0.9296608134028423
+decade,1930-1939,Qwen 3.5 35B,without_polarity,economic,72,68.97151554685801,0.4195140827050961
+decade,1940-1949,Qwen 3.5 35B,without_polarity,economic,60,31.83300717547293,5.44587899883813
+decade,1870-1879,Qwen 3.5 35B,without_polarity,diplomacy,1,0.441400304414003,0.8692778296132943
+decade,1880-1889,Qwen 3.5 35B,without_polarity,diplomacy,2,0.441400304414003,2.425450946931916
+decade,1890-1899,Qwen 3.5 35B,without_polarity,diplomacy,2,0.8197434224831485,1.3486386334505032
+decade,1900-1909,Qwen 3.5 35B,without_polarity,diplomacy,21,38.401826484018265,-3.114638216977775
+decade,1910-1919,Qwen 3.5 35B,without_polarity,diplomacy,60,72.07436399217221,-1.6949705242328086
+decade,1920-1929,Qwen 3.5 35B,without_polarity,diplomacy,139,104.73798651880844,4.3272305849516775
+decade,1930-1939,Qwen 3.5 35B,without_polarity,diplomacy,48,50.00434877147206,-0.3218919953105527
+decade,1940-1949,Qwen 3.5 35B,without_polarity,diplomacy,17,23.078930202217872,-1.3626061611555897
+decade,1870-1879,Qwen 3.5 35B,with_polarity,modernization (positive),2,0.547945205479452,2.0447734671412405
+decade,1880-1889,Qwen 3.5 35B,with_polarity,modernization (positive),1,0.547945205479452,0.6365804190156693
+decade,1890-1899,Qwen 3.5 35B,with_polarity,modernization (positive),4,1.0176125244618395,3.083809352428886
+decade,1900-1909,Qwen 3.5 35B,with_polarity,modernization (positive),66,47.67123287671233,2.9685906472707515
+decade,1910-1919,Qwen 3.5 35B,with_polarity,modernization (positive),75,89.47162426614481,-1.8383129719796028
+decade,1920-1929,Qwen 3.5 35B,with_polarity,modernization (positive),141,130.01956947162427,1.2549337875682651
+decade,1930-1939,Qwen 3.5 35B,with_polarity,modernization (positive),46,62.07436399217221,-2.3360114569630737
+decade,1940-1949,Qwen 3.5 35B,with_polarity,modernization (positive),25,28.649706457925635,-0.7402960204204364
+decade,1870-1879,Qwen 3.5 35B,with_polarity,modernization (negative),1,0.6484018264840182,0.4587359468689487
+decade,1880-1889,Qwen 3.5 35B,with_polarity,modernization (negative),2,0.6484018264840182,1.7634524710806336
+decade,1890-1899,Qwen 3.5 35B,with_polarity,modernization (negative),2,1.2041748206131768,0.7624214336047254
+decade,1900-1909,Qwen 3.5 35B,with_polarity,modernization (negative),92,56.41095890410959,5.340566348739062
+decade,1910-1919,Qwen 3.5 35B,with_polarity,modernization (negative),92,105.8747553816047,-1.6329822924223942
+decade,1920-1929,Qwen 3.5 35B,with_polarity,modernization (negative),121,153.85649054142206,-3.47917748612868
+decade,1930-1939,Qwen 3.5 35B,with_polarity,modernization (negative),87,73.45466405740379,1.8238323614469896
+decade,1940-1949,Qwen 3.5 35B,with_polarity,modernization (negative),29,33.90215264187867,-0.9212728562308279
+decade,1870-1879,Qwen 3.5 35B,with_polarity,patriotism (positive),0,0.9573820395738204,-1.05392535908856
+decade,1880-1889,Qwen 3.5 35B,with_polarity,patriotism (positive),0,0.9573820395738204,-1.05392535908856
+decade,1890-1899,Qwen 3.5 35B,with_polarity,patriotism (positive),2,1.7779952163513808,0.17945194483447874
+decade,1900-1909,Qwen 3.5 35B,with_polarity,patriotism (positive),87,83.29223744292237,0.46945217822718815
+decade,1910-1919,Qwen 3.5 35B,with_polarity,patriotism (positive),195,156.32681017612524,3.840383109840968
+decade,1920-1929,Qwen 3.5 35B,with_polarity,patriotism (positive),229,227.17308110458796,0.16322365324331614
+decade,1930-1939,Qwen 3.5 35B,with_polarity,patriotism (positive),97,108.45770819743423,-1.3016712423786698
+decade,1940-1949,Qwen 3.5 35B,with_polarity,patriotism (positive),19,50.057403783431184,-4.924645913211618
+decade,1870-1879,Qwen 3.5 35B,with_polarity,patriotism (negative),0,0.1461187214611872,-0.3866022952854041
+decade,1880-1889,Qwen 3.5 35B,with_polarity,patriotism (negative),0,0.1461187214611872,-0.3866022952854041
+decade,1890-1899,Qwen 3.5 35B,with_polarity,patriotism (negative),1,0.2713633398564905,1.4155683414420195
+decade,1900-1909,Qwen 3.5 35B,with_polarity,patriotism (negative),37,12.712328767123287,7.390933686407688
+decade,1910-1919,Qwen 3.5 35B,with_polarity,patriotism (negative),29,23.859099804305284,1.2269806532077738
+decade,1920-1929,Qwen 3.5 35B,with_polarity,patriotism (negative),10,34.67188519243314,-5.297855978037653
+decade,1930-1939,Qwen 3.5 35B,with_polarity,patriotism (negative),18,16.553163731245924,0.395054420449191
+decade,1940-1949,Qwen 3.5 35B,with_polarity,patriotism (negative),1,7.6399217221135025,-2.5305027111097327
+decade,1870-1879,Qwen 3.5 35B,with_polarity,victimhood (positive),0,0.4657534246575342,-0.7069033733115607
+decade,1880-1889,Qwen 3.5 35B,with_polarity,victimhood (positive),1,0.4657534246575342,0.8108597517397315
+decade,1890-1899,Qwen 3.5 35B,with_polarity,victimhood (positive),0,0.8649706457925636,-0.9639768951512131
+decade,1900-1909,Qwen 3.5 35B,with_polarity,victimhood (positive),49,40.52054794520548,1.4802213078980433
+decade,1910-1919,Qwen 3.5 35B,with_polarity,victimhood (positive),71,76.05088062622309,-0.6915300855750358
+decade,1920-1929,Qwen 3.5 35B,with_polarity,victimhood (positive),116,110.51663405088063,0.6754457536669329
+decade,1930-1939,Qwen 3.5 35B,with_polarity,victimhood (positive),53,52.76320939334638,0.037089197913300245
+decade,1940-1949,Qwen 3.5 35B,with_polarity,victimhood (positive),16,24.35225048923679,-1.8259664371601756
+decade,1870-1879,Qwen 3.5 35B,with_polarity,victimhood (negative),0,0.0167427701674277,-0.12964758251288097
+decade,1880-1889,Qwen 3.5 35B,with_polarity,victimhood (negative),0,0.0167427701674277,-0.12964758251288097
+decade,1890-1899,Qwen 3.5 35B,with_polarity,victimhood (negative),0,0.031093716025222873,-0.1767954133096847
+decade,1900-1909,Qwen 3.5 35B,with_polarity,victimhood (negative),4,1.45662100456621,2.2651817467350326
+decade,1910-1919,Qwen 3.5 35B,with_polarity,victimhood (negative),4,2.7338551859099804,0.884423890816868
+decade,1920-1929,Qwen 3.5 35B,with_polarity,victimhood (negative),2,3.97282017829963,-1.239834898327667
+decade,1930-1939,Qwen 3.5 35B,with_polarity,victimhood (negative),0,1.8967166775385953,-1.515718475705044
+decade,1940-1949,Qwen 3.5 35B,with_polarity,victimhood (negative),1,0.8754076973255055,0.13896761452863035
+decade,1870-1879,Qwen 3.5 35B,with_polarity,moral (positive),0,0.1171993911719939,-0.34550940103786254
+decade,1880-1889,Qwen 3.5 35B,with_polarity,moral (positive),0,0.1171993911719939,-0.34550940103786254
+decade,1890-1899,Qwen 3.5 35B,with_polarity,moral (positive),0,0.2176560121765601,-0.47115785867277205
+decade,1900-1909,Qwen 3.5 35B,with_polarity,moral (positive),6,10.19634703196347,-1.4228554285503396
+decade,1910-1919,Qwen 3.5 35B,with_polarity,moral (positive),17,19.136986301369863,-0.5682981325038655
+decade,1920-1929,Qwen 3.5 35B,with_polarity,moral (positive),29,27.809741248097414,0.28478371055963453
+decade,1930-1939,Qwen 3.5 35B,with_polarity,moral (positive),14,13.277016742770167,0.2199589952494676
+decade,1940-1949,Qwen 3.5 35B,with_polarity,moral (positive),11,6.127853881278539,2.0689028621609276
+decade,1870-1879,Qwen 3.5 35B,with_polarity,moral (negative),0,1.0060882800608828,-1.0847824713142864
+decade,1880-1889,Qwen 3.5 35B,with_polarity,moral (negative),0,1.0060882800608828,-1.0847824713142864
+decade,1890-1899,Qwen 3.5 35B,with_polarity,moral (negative),1,1.868449662970211,-0.6875629690987055
+decade,1900-1909,Qwen 3.5 35B,with_polarity,moral (negative),164,87.5296803652968,9.483187556666591
+decade,1910-1919,Qwen 3.5 35B,with_polarity,moral (negative),217,164.279843444227,5.1277074306520225
+decade,1920-1929,Qwen 3.5 35B,with_polarity,moral (negative),156,238.73037616873233,-7.239537395791971
+decade,1930-1939,Qwen 3.5 35B,with_polarity,moral (negative),92,113.97542944118287,-2.445248008324501
+decade,1940-1949,Qwen 3.5 35B,with_polarity,moral (negative),31,52.604044357469014,-3.355265660539852
+decade,1870-1879,Qwen 3.5 35B,with_polarity,economic (positive),0,0.0334855403348554,-0.1835695609910035
+decade,1880-1889,Qwen 3.5 35B,with_polarity,economic (positive),0,0.0334855403348554,-0.1835695609910035
+decade,1890-1899,Qwen 3.5 35B,with_polarity,economic (positive),0,0.062187432050445746,-0.2503267378954589
+decade,1900-1909,Qwen 3.5 35B,with_polarity,economic (positive),1,2.91324200913242,-1.206335564689132
+decade,1910-1919,Qwen 3.5 35B,with_polarity,economic (positive),3,5.467710371819961,-1.220330658043131
+decade,1920-1929,Qwen 3.5 35B,with_polarity,economic (positive),12,7.94564035659926,1.8038685054717492
+decade,1930-1939,Qwen 3.5 35B,with_polarity,economic (positive),3,3.7934333550771906,-0.4488826151799751
+decade,1940-1949,Qwen 3.5 35B,with_polarity,economic (positive),3,1.750815394651011,0.9864049983161997
+decade,1870-1879,Qwen 3.5 35B,with_polarity,economic (negative),3,0.5799086757990868,3.3209408004974645
+decade,1880-1889,Qwen 3.5 35B,with_polarity,economic (negative),1,0.5799086757990868,0.5764651955580503
+decade,1890-1899,Qwen 3.5 35B,with_polarity,economic (negative),0,1.076973255055447,-1.085164445125644
+decade,1900-1909,Qwen 3.5 35B,with_polarity,economic (negative),37,50.45205479452055,-2.1231118402828155
+decade,1910-1919,Qwen 3.5 35B,with_polarity,economic (negative),70,94.69080234833659,-3.056360368836771
+decade,1920-1929,Qwen 3.5 35B,with_polarity,economic (negative),143,137.604044357469,0.6009481433758677
+decade,1930-1939,Qwen 3.5 35B,with_polarity,economic (negative),70,65.69536855838226,0.6095991134002409
+decade,1940-1949,Qwen 3.5 35B,with_polarity,economic (negative),57,30.320939334637966,5.273332993609694
+decade,1870-1879,Qwen 3.5 35B,with_polarity,diplomacy (positive),1,0.2191780821917808,1.6958680179357137
+decade,1880-1889,Qwen 3.5 35B,with_polarity,diplomacy (positive),0,0.2191780821917808,-0.47603312784160384
+decade,1890-1899,Qwen 3.5 35B,with_polarity,diplomacy (positive),0,0.4070450097847358,-0.6491480361964842
+decade,1900-1909,Qwen 3.5 35B,with_polarity,diplomacy (positive),4,19.068493150684933,-3.7641311351038924
+decade,1910-1919,Qwen 3.5 35B,with_polarity,diplomacy (positive),30,35.788649706457925,-1.1341155406083991
+decade,1920-1929,Qwen 3.5 35B,with_polarity,diplomacy (positive),76,52.007827788649706,4.229108937026104
+decade,1930-1939,Qwen 3.5 35B,with_polarity,diplomacy (positive),20,24.829745596868886,-1.082538332816678
+decade,1940-1949,Qwen 3.5 35B,with_polarity,diplomacy (positive),13,11.459882583170254,0.4818137274596883
+decade,1870-1879,Qwen 3.5 35B,with_polarity,diplomacy (negative),0,0.2252663622526636,-0.4828162133870271
+decade,1880-1889,Qwen 3.5 35B,with_polarity,diplomacy (negative),2,0.2252663622526636,3.803808816278876
+decade,1890-1899,Qwen 3.5 35B,with_polarity,diplomacy (negative),2,0.41835181561208956,2.48918196276032
+decade,1900-1909,Qwen 3.5 35B,with_polarity,diplomacy (negative),17,19.598173515981735,-0.6404843419379682
+decade,1910-1919,Qwen 3.5 35B,with_polarity,diplomacy (negative),30,36.782778864970645,-1.3113938289398521
+decade,1920-1929,Qwen 3.5 35B,with_polarity,diplomacy (negative),65,53.452489671667756,2.008690876167252
+decade,1930-1939,Qwen 3.5 35B,with_polarity,diplomacy (negative),28,25.519460752337466,0.5486691942162172
+decade,1940-1949,Qwen 3.5 35B,with_polarity,diplomacy (negative),4,11.778212654924983,-2.401323080236538

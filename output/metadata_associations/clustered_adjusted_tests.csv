@@ -1,0 +1,109 @@
+﻿variable,model,mode,frame,n_segments,n_documents,wald_chi2,df,p_value,status,reference_level,q_bh,reject_fdr
+relevance_to_original_topic,Gemma 3 27B,without_polarity,modernization,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,without_polarity,modernization,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,without_polarity,modernization,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,without_polarity,patriotism,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,without_polarity,patriotism,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,without_polarity,patriotism,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,without_polarity,victimhood,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,without_polarity,victimhood,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,without_polarity,victimhood,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,without_polarity,moral,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,without_polarity,moral,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,without_polarity,moral,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,without_polarity,economic,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,without_polarity,economic,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,without_polarity,economic,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,without_polarity,diplomacy,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,without_polarity,diplomacy,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,without_polarity,diplomacy,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,modernization (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,modernization (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,modernization (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,modernization (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,modernization (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,modernization (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,patriotism (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,patriotism (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,patriotism (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,patriotism (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,patriotism (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,patriotism (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,victimhood (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,victimhood (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,victimhood (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,victimhood (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,victimhood (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,victimhood (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,moral (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,moral (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,moral (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,moral (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,moral (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,moral (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,economic (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,economic (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,economic (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,economic (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,economic (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,economic (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,diplomacy (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,diplomacy (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,diplomacy (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Gemma 3 27B,with_polarity,diplomacy (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Gemma 3 27B,with_polarity,diplomacy (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Gemma 3 27B,with_polarity,diplomacy (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,without_polarity,modernization,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,without_polarity,modernization,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,without_polarity,modernization,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,without_polarity,patriotism,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,without_polarity,patriotism,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,without_polarity,patriotism,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,without_polarity,victimhood,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,without_polarity,victimhood,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,without_polarity,victimhood,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,without_polarity,moral,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,without_polarity,moral,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,without_polarity,moral,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,without_polarity,economic,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,without_polarity,economic,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,without_polarity,economic,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,without_polarity,diplomacy,4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,without_polarity,diplomacy,4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,without_polarity,diplomacy,4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,modernization (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,modernization (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,modernization (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,modernization (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,modernization (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,modernization (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,patriotism (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,patriotism (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,patriotism (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,patriotism (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,patriotism (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,patriotism (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,victimhood (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,victimhood (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,victimhood (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,victimhood (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,victimhood (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,victimhood (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,moral (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,moral (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,moral (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,moral (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,moral (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,moral (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,economic (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,economic (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,economic (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,economic (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,economic (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,economic (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,diplomacy (positive),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,diplomacy (positive),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,diplomacy (positive),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False
+relevance_to_original_topic,Qwen 3.5 35B,with_polarity,diplomacy (negative),4599,4381,,1,,sparse_or_zero_category_cells,RELEVANT_NON_US,,False
+gender_mentioned,Qwen 3.5 35B,with_polarity,diplomacy (negative),4599,4381,,1,,sparse_or_zero_category_cells,No,,False
+decade,Qwen 3.5 35B,with_polarity,diplomacy (negative),4599,4381,,7,,sparse_or_zero_category_cells,1870-1879,,False

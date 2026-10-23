@@ -1,0 +1,55 @@
+﻿variable,mode,frame,models,n_segments,n_model_rows,n_documents,wald_chi2,df,p_value,status,q_bh,reject_fdr
+relevance_to_original_topic,without_polarity,modernization,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,without_polarity,patriotism,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,without_polarity,victimhood,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,without_polarity,moral,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,without_polarity,economic,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,without_polarity,diplomacy,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,modernization (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,modernization (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,patriotism (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,patriotism (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,victimhood (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,victimhood (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,sparse_or_zero_model_category_cells,,False
+relevance_to_original_topic,with_polarity,moral (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,moral (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,economic (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,economic (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,diplomacy (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+relevance_to_original_topic,with_polarity,diplomacy (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,without_polarity,modernization,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,without_polarity,patriotism,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,without_polarity,victimhood,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,without_polarity,moral,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,without_polarity,economic,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,without_polarity,diplomacy,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,modernization (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,modernization (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,patriotism (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,patriotism (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,victimhood (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,victimhood (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,sparse_or_zero_model_category_cells,,False
+gender_mentioned,with_polarity,moral (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,moral (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,economic (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,sparse_or_zero_model_category_cells,,False
+gender_mentioned,with_polarity,economic (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,diplomacy (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+gender_mentioned,with_polarity,diplomacy (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,1,,fit_failed:NameError:name 'sm' is not defined,,False
+decade,without_polarity,modernization,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,without_polarity,patriotism,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,without_polarity,victimhood,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,without_polarity,moral,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,without_polarity,economic,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,without_polarity,diplomacy,Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,modernization (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,modernization (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,patriotism (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,patriotism (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,victimhood (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,victimhood (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,moral (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,moral (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,economic (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,economic (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,diplomacy (positive),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False
+decade,with_polarity,diplomacy (negative),Gemma 3 27B | Qwen 3.5 35B,4599,9198,4381,,7,,sparse_or_zero_model_category_cells,,False

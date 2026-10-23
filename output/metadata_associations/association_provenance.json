@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-10-23T15:57:23.116092+00:00",
+  "input_files": [
+    "/Users/carmand/Desktop/framing_revised/output_v2/frames_debate_complete_gemma3_27b.csv",
+    "/Users/carmand/Desktop/framing_revised/output_v2/frames_debate_complete_qwen3.5_35b.csv"
+  ],
+  "models": [
+    "Gemma 3 27B",
+    "Qwen 3.5 35B"
+  ],
+  "reference_model_metadata": "Gemma 3 27B",
+  "join_keys": [
+    "_row_id"
+  ],
+  "matched_analysis_segments": 4599,
+  "document_clusters": 4381,
+  "cluster_column": "doc_id",
+  "variables": [
+    "relevance_to_original_topic",
+    "gender_mentioned",
+    "decade"
+  ],
+  "references": {
+    "relevance_to_original_topic": "RELEVANT_NON_US",
+    "gender_mentioned": "No",
+    "decade": "1870-1879"
+  },
+  "bootstrap_replicates": 500,
+  "seed": 42,
+  "bootstrap_method": "whole-document resampling, paired across all models, percentile 95%",
+  "primary_population": "valid matched predictions across all models, matching text/document identifiers",
+  "metadata_policy": "reference model values; per-variable complete cases; conflicting values excluded",
+  "missing_tokens": [
+    ""
+  ],
+  "min_clusters_for_robust_tests": 30,
+  "min_success_failure_per_category": 5,
+  "alpha": 0.05,
+  "adjusted_models": true,
+  "fdr_families": [
+    "all clustered unadjusted omnibus",
+    "all clustered adjusted omnibus",
+    "all clustered model interactions",
+    "all iid diagnostics"
+  ],
+  "decade_definition": "calendar decades from integer year with YYYYMMDD/ISO date fallback",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "statsmodels": "0.14.0",
+    "matplotlib": "3.8.0",
+    "seaborn": "0.12.2"
+  },
+  "figure_files": [
+    "relevance_to_original_topic_2b50dc_without_polarity_prevalence.png",
+    "relevance_to_original_topic_2b50dc_without_polarity_effects.png",
+    "relevance_to_original_topic_2b50dc_without_polarity_residuals.png",
+    "relevance_to_original_topic_2b50dc_without_polarity_model_difference_Gemma_3_27BQwen_3_5_35B_50be1b.png",
+    "relevance_to_original_topic_2b50dc_with_polarity_prevalence.png",
+    "relevance_to_original_topic_2b50dc_with_polarity_effects.png",
+    "relevance_to_original_topic_2b50dc_with_polarity_residuals.png",
+    "relevance_to_original_topic_2b50dc_with_polarity_model_difference_Gemma_3_27BQwen_3_5_35B_50be1b.png",
+    "relevance_to_original_topic_2b50dc_conditional_polarity.png",
+    "gender_mentioned_fd3538_without_polarity_prevalence.png",
+    "gender_mentioned_fd3538_without_polarity_effects.png",
+    "gender_mentioned_fd3538_without_polarity_residuals.png",
+    "gender_mentioned_fd3538_without_polarity_model_difference_Gemma_3_27BQwen_3_5_35B_50be1b.png",
+    "gender_mentioned_fd3538_with_polarity_prevalence.png",
+    "gender_mentioned_fd3538_with_polarity_effects.png",
+    "gender_mentioned_fd3538_with_polarity_residuals.png",
+    "gender_mentioned_fd3538_with_polarity_model_difference_Gemma_3_27BQwen_3_5_35B_50be1b.png",
+    "gender_mentioned_fd3538_conditional_polarity.png",
+    "decade_964ec4_without_polarity_prevalence.png",
+    "decade_964ec4_without_polarity_effects.png",
+    "decade_964ec4_without_polarity_residuals.png",
+    "decade_964ec4_without_polarity_model_difference_Gemma_3_27BQwen_3_5_35B_50be1b.png",
+    "decade_964ec4_without_polarity_trajectories.png",
+    "decade_964ec4_with_polarity_prevalence.png",
+    "decade_964ec4_with_polarity_effects.png",
+    "decade_964ec4_with_polarity_residuals.png",
+    "decade_964ec4_with_polarity_model_difference_Gemma_3_27BQwen_3_5_35B_50be1b.png",
+    "decade_964ec4_with_polarity_trajectories.png",
+    "decade_964ec4_conditional_polarity.png",
+    "decade_polarity_diverging.png"
+  ]
+}
